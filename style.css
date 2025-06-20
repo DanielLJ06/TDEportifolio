@@ -365,7 +365,7 @@ h1 {
             left: 30px;
             border-radius: 8px;
             width: 380px;
-            height: 550px;
+            height: 500px;
             transition:all 0.5s ease;
             box-shadow: 0 5px 15px rgba(179, 167, 176, 0.5);
 }
