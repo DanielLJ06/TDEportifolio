@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu_link">Início</a>
+            </li>
+            <li>
+                <a href="#Sobre"class="menu_link">Sobre</a>
+            </li>
+            <li>
+                <a href="#Disciplinas"class="menu_link">Disciplinas</a>
+            </li>
+            <li>
+                <a href="#Contatos"class="menu_link">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="imagens/Daniel.jpg" alt="Foto de Daniel" class="Perfil">
+            <h1>Daniel L.Jager</h1>
+
+        </div>
+    </main>
+
+    <section id="Sobre" class="Sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Olá! Sou um estudante de Ciências da Computação da Pontifícia Universidade Católica do Paraná (PUCPR). Antes de entrar para a faculdade, tive 1 ano de  experiencia em programação C e banco de dados no SESI/SENAI internacional. </p>
+        </div>
+    </section>
+
+    <section id="Disciplinas" class="Disciplinas">
+        
+        
+        <div class="Projetos">
+            <img src="imagens/siteee.jpg" alt="Projeto 1" class="projeto_imagem">
+            <h3 class="projeto_titulo" onclick="openModalmidia_EPS32()">Fundamentos de Sistemas Ciberfísicos</h3>
+        </div>
+
+
+
+    <div id="midia_EPS32" class="midia">
+    <div class="midia_conteudo">
+        <span class="close" onclick="closeModalmidia_EPS32(midia_EPS32)">&times;</span> 
+        <h2 class="texto">Projeto ESP32</h2>
+        <p class="sobre-paragrafo">Em equipe, alinhado aos nossos conhecimentos e habilidades, desenvolvemos em equipe um projeto de estação meteorológica, com foco específico na monitorização da umidade relativa do ar em níveis reduzidos, um fenômeno bastante comum e relevante na cidade de Curitiba, especialmente em determinadas épocas do ano. O desenvolvimento deste projeto teve como premissa principal a busca por soluções acessíveis, eficientes e sustentáveis, que possam ser replicadas e escaladas com facilidade.</p>
+        <p class="sobre-paragrafo">Para informações tecnicas sobre o codigo, acesse o <a href="https://github.com/Pedr0fsc/Esp32-Weather-Monitoring" class="linha"> Github </a></p>
+        <img src="imagens/esp32.png" alt="Projeto 8" class="midia_video4">
+
+    </div>
+
+    <div class="midia_conteudo">
+    <h3 class="texto">Seminario sobre Sistemas operacional Chorome OS</h3>
+    <p class="sobre-paragrafo">Mais uma vez, em um esforço conjunto e colaborativo, nossa equipe se reuniu para realizar a produção de um vídeo informativo e analítico, voltado para a exploração detalhada do sistema operacional Chrome OS. Ao longo do desenvolvimento deste material, buscamos apresentar de forma clara, didática e acessível as principais características dessa plataforma, abordando tanto seus aspectos positivos quanto negativos. </p>
+
+    <iframe class = midia_video5 width="560" height="315" src="https://www.youtube.com/embed/R0O_FFxYWaE?si=8-iuiPEALPaf6YqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+</div>
+
+  
+
+        
+
+<div class="Projetos">
+    <img src="imagens/LogicaImportante.png" alt="Projeto 3" class="projeto_imagem">
+    <h3 class="projeto_titulo" onclick="openModalraciocinio()">Raciocínio Algorítmico</h3>
+</div>
+
+<div id="raciocinio" class="midia">
+    <div class="midia_conteudo">
+        <span class="close" onclick="closeModalraciocinio()">&times;</span>
+        <section>
+        <h2 class="texto">Jokenpo</h2>
+        <p class="sobre-paragrafo">Em um trabalho realizado em equipe, desenvolvemos um jogo do Jokenpô (pedra, papel e tesoura) utilizando a linguagem Python. O projeto teve como principal objetivo aplicar na prática os conhecimentos adquiridos em lógica de programação, estruturas condicionais, funções e manipulação de entradas do usuário. A escolha do jogo Jokenpô se deu por ser um exemplo clássico e acessível, ideal para consolidar conceitos fundamentais de desenvolvimento e interação com o usuário por meio do terminal. </p>
+        <p class="sobre-paragrafo">Para informações técnicas sobre o código, acesse o <a href="https://github.com/SUGURU-Get0U/RAs_python/tree/main/VendingMachine"class="linha">Github</a></p>
+        </section>
+    </div>
+
+        <div class="midia_conteudo">
+        <h2 class="texto">Maquina-vendas</h2>
+        <p class="sobre-paragrafo">EEm dupla, desenvolvemos uma máquina de vendas em Python, aplicando conceitos fundamentais da programação como funções e listas. O projeto teve como objetivo simular o funcionamento básico de uma máquina automática de vendas, permitindo ao usuário visualizar produtos disponíveis, selecionar itens, inserir valores e receber o troco, quando necessário. </p>
+        <p class="sobre-paragrafo">Para informações técnicas sobre o código, acesse o <a href="https://github.com/SUGURU-Get0U/RAs_python/tree/main/jyakenpon"class="linha">Github</a></p>
+
+       </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="Projetos">
+    <img src="imagens/Logica.jpeg" alt="Projeto 3" class="projeto_imagem">
+    <h3 class="projeto_titulo" onclick="openModallogica()">Resolução de Problemas com Lógica e Matemática</h3>
+</div>
+
+<div id="midia" class="midia">
+    <div class="midia_conteudo">
+        <span class="close" onclick="closeModallogica()">&times;</span>
+        <section>
+        <h2 class="texto">Tabela-verdade</h2>
+        <p class="sobre-paragrafo">Um trabalho realizado em equipe, desenvolvemos um projeto em Python com o objetivo de implementar uma tabela-verdade, ferramenta fundamental no estudo da lógica booleana e do raciocínio computacional.</p>
+        <p class="sobre-paragrafo">Para acessar o jogo clique nesse <a href="https://github.com/SophiaOelkeverdi/Jogo-Tabela-Verdade"class="linha"> link.</a> </p>      
+        </section>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="Projetos">
+    <img src="imagens/FIlosofia.jpeg" alt="Projeto 3" class="projeto_imagem">
+    <h3 class="projeto_titulo" onclick="openModalfilosofia()">Filosofia</h3>
+</div>
+
+<div id="filosofia" class="midia">
+    <div class="midia_conteudo">
+        <span class="close" onclick="closeModalfilosofia()">&times;</span>
+        <section>
+        <h2 class="texto">Reflexão da atualidade</h2>
+        <p class="sobre-paragrafo">Em um trabalho realizado de forma colaborativa, nossa equipe desenvolveu uma entrevista com um profissional atuante na área de tecnologia, com o objetivo de investigar e compreender os impactos da inteligência artificial (IA) em sua rotina de trabalho e no setor como um todo.</p>
+        <iframe  class = midia_video6 width="560" height="315" src="https://www.youtube.com/embed/hysAcJGLoyc?si=ORvHRaaZ0YVpW1tj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </div>
+</div>
+
+
+<div class="Projetos">
+        <img src="imagens/siteee.jpg" alt="Projeto 1" class="projeto_imagem">
+        <h3 class="projeto_titulo" onclick="openModalexpcriativa()">Experiencia Criativa</h3>
+        </div>
+
+
+
+<div id="experiencia" class="midia">
+    <div class="midia_conteudo">
+        <span class="close" onclick="closeModalexpcriativa()">&times;</span> 
+        <h2 class="texto">Rage Fruits</h2>
+        <p class="sobre-paragrafo">Em um trabalho realizado de forma colaborativa, nossa equipe desenvolveu um projeto utilizando o software Construct 3, uma plataforma voltada para o desenvolvimento de jogos e aplicações interativas por meio da programação em blocos. Essa abordagem visual e intuitiva permitiu que colocássemos em prática os fundamentos da lógica de programação, mesmo sem a necessidade de escrever códigos de forma tradicional.</p>
+        <p class="sobre-paragrafo">Para acessar o jogo clique nesse <a href="https://www.construct.net/en/free-online-games/frutas-iradas-75594/play"class="linha"> link </a>ou na imagem. </p>
+        <a href="https://www.construct.net/en/free-online-games/frutas-iradas-75594/play"><img src="imagens/Ragefruits.png" alt="Projeto 8" class="midia_video2"></a>
+
+    </div>
+
+    <div class="midia_conteudo">
+    <h3 class="texto">Plantinha pomposa</h3>
+    <p class="sobre-paragrafo">Mais uma vez, por meio do trabalho em equipe, desenvolvemos um aplicativo multimídia educacional, com o propósito central de conscientizar o público jovem sobre a importância da preservação do meio ambiente. A proposta surgiu da necessidade de abordar questões ambientais de forma acessível, interativa e engajadora, utilizando recursos visuais, sonoros e informativos que dialogassem diretamente com as novas gerações. </p>
+    <p class="sobre-paragrafo">Para acessar o GitHub do aplicativo, clique nesse <a href="https://github.com/sergiocalazans/plantinhapomposa"class="linha"> link </a>ou na imagem. </p>
+    <a href="https://github.com/sergiocalazans/plantinhapomposa"class="linha"><img src="imagens/arvore.png" alt="Projeto 8" class="midia_video"> </a>
+    </div>
+
+
+    <div class="midia_conteudo">
+    <h3 class="texto">Jornal Pomposo</h3>
+    <p class="sobre-paragrafo">Com o tema semelhante ao trabalho anterior,realizamos, em equipe, um painel de notícias positivas sobre o meio ambiente. O principal objetivo desta atividade foi despertar a atenção para as boas práticas ambientais, demonstrando que, apesar dos inúmeros desafios ecológicos enfrentados globalmente, há iniciativas, projetos e atitudes que vêm contribuindo de forma significativa para a preservação e recuperação do nosso planeta. </p>
+    <p class="sobre-paragrafo">Para acessar o aplicativo  clique nesse <a href="https://jornalpomposo-final.vercel.app"class="linha"> link </a>ou na imagem. </p>
+    <a href="https://jornalpomposo-final.vercel.app" ><img  src="imagens/imagem.png"  alt="Projeto 8" class="midia_video3"></a>
+    </div>
+
+
+     
+</div>
+
+
+
+<section id="Contatos" class="Contatos">
+    <h2 class="contatos-titulo">Entrar em Contato</h2>
+    <form class="formulario-contato" id="Formulario" onsubmit="enviarWhats(event)">
+        <div class="grupo_form">
+            <input type="text" placeholder="Nome" class="campo-form" id="Nome">
+        </div>
+        <div class="grupo_form">
+            <textarea placeholder="Digite sua Mensagem" class="campo-form" rows="3" id="Mensagem"></textarea>
+        </div>
+        <button type="submit" class="botao-form" id="Whatssap">Enviar WhatsApp</button>
+    </form>
+</section>
+
+<script>
+    function enviarWhats(event) {
+        event.preventDefault();
+        const nome = document.getElementById("Nome").value;
+        const mensagem = document.getElementById("Mensagem").value;
+        const telefone = '5541999264793';
+
+        const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
+        const msgFormatada = encodeURIComponent(texto);
+
+        const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+        window.open(url, '_blank');
+    }
+
+ 
+    function openModalmidia_EPS32() {
+        document.getElementById('midia_EPS32').style.display = 'block';
+    }
+
+    function closeModalmidia_EPS32() {
+        document.getElementById('midia_EPS32').style.display = 'none';
+    }
+
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+
+    function openModallogica() {
+        document.getElementById('midia').style.display = 'block';
+    }
+
+    function closeModallogica() {
+        document.getElementById('midia').style.display = 'none';
+    }
+
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+
+
+
+
+
+    function openModalraciocinio() {
+        document.getElementById('raciocinio').style.display = 'block';
+    }
+
+    function closeModalraciocinio() {
+        document.getElementById('raciocinio').style.display = 'none';
+    }
+
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+
+    function openModalfilosofia() {
+        document.getElementById('filosofia').style.display = 'block';
+    }
+
+    function closeModalfilosofia() {
+        document.getElementById('filosofia').style.display = 'none';
+    }
+
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+        function openModalexpcriativa() {
+        document.getElementById('experiencia').style.display = 'block';
+    }
+
+    function closeModalexpcriativa() {
+        document.getElementById('experiencia').style.display = 'none';
+    }
+
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+</script>
+
+</body>
+</html>
